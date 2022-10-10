@@ -1,0 +1,194 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#navigation {
+  display: flex;
+  position: relative;
+ 
+  top: 0%;
+}
+#navigation::before {
+  content: "";
+  background-color:black;
+  position: absolute;
+  height: 96%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.9;
+}
+#logo {
+  margin: -28.5px 45px;
+}
+#logo img {
+  height: 48px;
+  margin: 30.3px -10.3px;
+  border-radius: 40px;
+}
+#navigation ul {
+  display: flex;
+}
+#navigation ul li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+#navigation ul a {
+  display: block;
+  text-decoration: none;
+  padding: 15px 17px;
+  border-radius: 34px;
+  color: white;
+}
+#navigation ul a:hover {
+  color: rgb(212, 200, 200);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* home section */
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  justify-content: center;
+  align-items: center;
+  height: 400.7px;
+}
+#home::before {
+  content: "";
+  background: url("img/bg1.jpg") no-repeat center center/cover;
+  position: absolute;
+  height: 75%;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+/* utility class */
+#home p {
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+}
+#home h1 {
+  font-family: "Ms Madi", cursive;
+
+  color: white;
+  text-align: center;
+}
+.h-primary {
+  font-size: 2.6rem;
+  padding: 12px;
+}
+.h-secondary {
+  font-size: 1.6rem;
+  padding: 12px;
+}
+.btn {
+  padding: 9px 10px;
+  color: white;
+  background-color: brown;
+  border: 3px solid rgb(238, 232, 232);
+  border-radius: 15px;
+  margin: 25px 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.btn:hover {
+  background-color: rgb(133, 64, 64);
+}
+.center {
+  text-align: center;
+}
+
+/* services section */
+#services {
+  margin: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#services .box {
+  border: 2px solid brown;
+  padding: 34px;
+  margin: 2px 55px;
+  border-radius: 28px;
+  background: #f2f2f2;
+  margin-bottom: 20px;
+}
+
+#services .box img {
+  height: 160px;
+  margin: auto;
+  display: block;
+}
+
+#services .box p {
+  font-family: "Bree Serif", serif;
+}
+#services h2 {
+  font-family: "Ms Madi", cursive;
+}
+
+/* Client section */
+
+.client-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact img {
+  height: 100px;
+  width: 100px;
+  margin: 13px 30px;
+}
+
+/* contact section */
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.contact-container input {
+  border-radius: 9px;
+  font-size: 1rem;
+  padding: 2px 110px;
+}
+
+.contact-container textarea {
+  width: 417px;
+  height: 229px;
+  font-size: 1rem;
+  cursor:auto;
+}
+
+.contact-btn{
+   text-align: center;
+  background-color: #f2f2f2;
+}
+.contact-btn button{
+   padding: 9px 10px;
+   color: black;
+   background-color: #f2f2f2;
+   border: 3px solid rgb(173 173 173);
+   border-radius: 15px;
+   margin:9px 20px;
+   cursor: pointer;
+   font-size: 18px;
+}
+  
+.contact-btn button:hover{
+   background-color: #aaa2a2;
+   border: 3px solid rgb(158, 145, 145);
+   text-decoration: underline;
+}
+
+.contact-btn h1{
+   font-family: "Ms Madi", cursive;
+   font-size: 18px;
+}
